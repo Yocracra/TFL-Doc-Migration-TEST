@@ -59,6 +59,19 @@ If the repository is renamed to `<your-github-username>.github.io`, the site URL
 
 - User site: `https://<your-github-username>.github.io/`
 
+### Troubleshooting: Plain Page or 404s
+
+If the site looks like a plain HTML page or document links return 404, GitHub is usually serving a branch build instead of the Actions artifact.
+
+Check these in order:
+
+1. In `Settings > Pages`, `Source` must be `GitHub Actions`.
+2. In `Actions`, the workflow `Deploy Docs To GitHub Pages` must complete successfully.
+3. In `Settings > Pages`, make sure `Custom domain` is empty when using the default GitHub domain.
+4. Wait 1-2 minutes after a successful deploy and hard-refresh your browser.
+
+If needed, trigger a clean redeploy from `Actions` by running `Deploy Docs To GitHub Pages` manually.
+
 ## Cloudflare Pages Deployment (Optional)
 
 If you want to keep a Cloudflare Pages path, the workflow is still available and now runs manually only:
