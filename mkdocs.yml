@@ -8,7 +8,6 @@ theme:
   name: material
   features:
     - navigation.instant
-    - navigation.sections
     - content.code.copy
   palette:
     - media: "(prefers-color-scheme: light)"
