@@ -1,0 +1,33 @@
+services:
+  docs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /workspace
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/workspace
+    command: mkdocs serve -a 0.0.0.0:8000
+
+  placeholders:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+    command: python generate_placeholders.py
+    profiles:
+      - tools
+
+  build:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+    command: mkdocs build --clean
+    profiles:
+      - build
