@@ -33,9 +33,43 @@ Regenerate media placeholder pages for `.mmd`, `.pdf`, `.stl`, `.xlsx`, and `.cs
 docker compose --profile tools run --rm placeholders
 ```
 
-## Cloudflare Pages Deployment
+## GitHub Pages Deployment (Recommended)
 
-Use Cloudflare Pages Git integration against this repository.
+This repository includes a GitHub Pages workflow:
+
+- [.github/workflows/github-pages.yml](.github/workflows/github-pages.yml)
+
+It builds MkDocs and deploys the generated `site/` directory automatically on push to `main` or `master`.
+
+### One-time GitHub setup
+
+1. In GitHub, open repository `Settings`.
+2. Go to `Pages`.
+3. Under `Build and deployment`, set `Source` to `GitHub Actions`.
+4. Push to `main` or `master` (or run the workflow manually from `Actions`).
+
+### Custom domain with Cloudflare DNS
+
+`docs/CNAME` is already set to `aidanstew.art` in [docs/CNAME](docs/CNAME).
+
+In Cloudflare DNS for `aidanstew.art`, create or update these records:
+
+- `A` @ -> `185.199.108.153`
+- `A` @ -> `185.199.109.153`
+- `A` @ -> `185.199.110.153`
+- `A` @ -> `185.199.111.153`
+
+Optional:
+
+- `CNAME` `www` -> `<your-github-username>.github.io`
+
+Then in GitHub `Settings > Pages`, set custom domain to `aidanstew.art` and enable HTTPS.
+
+## Cloudflare Pages Deployment (Optional)
+
+If you want to keep a Cloudflare Pages path, the workflow is still available and now runs manually only:
+
+- [.github/workflows/cloudflare-pages.yml](.github/workflows/cloudflare-pages.yml)
 
 ### Required settings
 
