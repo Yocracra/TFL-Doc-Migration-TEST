@@ -72,50 +72,6 @@ Check these in order:
 
 If needed, trigger a clean redeploy from `Actions` by running `Deploy Docs To GitHub Pages` manually.
 
-## Cloudflare Pages Deployment (Optional)
-
-If you want to keep a Cloudflare Pages path, the workflow is still available and now runs manually only:
-
-- [.github/workflows/cloudflare-pages.yml](.github/workflows/cloudflare-pages.yml)
-
-### Required settings
-
-- Framework preset: `None`
-- Build command: `pip install -r requirements.txt && mkdocs build`
-- Build output directory: `site`
-- Root directory: repository root
-- Python version environment variable: `PYTHON_VERSION=3.12`
-
-If Cloudflare asks for a deploy command, use:
-
-```bash
-npx wrangler pages deploy site --project-name tfl-doc-migration-test
-```
-
-Do not use `npx wrangler deploy` for this project. That command targets Workers deployment behavior and can fail with: "Could not detect a directory containing static files".
-
-### GitHub Action deployment (included)
-
-This repository also includes [cloudflare-pages.yml](.github/workflows/cloudflare-pages.yml), which will:
-
-- install dependencies
-- build the MkDocs site
-- deploy `site/` to Cloudflare Pages project `tfl-doc-migration-test`
-
-Add these repository secrets before enabling the workflow:
-
-- `CLOUDFLARE_API_TOKEN`
-- `CLOUDFLARE_ACCOUNT_ID`
-
-### Custom domain
-
-1. In Cloudflare Pages, open your project.
-2. Go to `Custom domains`.
-3. Add `aidanstew.art`.
-4. Follow Cloudflare DNS prompts (usually CNAME flattening or managed records if domain is already in Cloudflare).
-
-After DNS propagation, every push to the default branch will rebuild and redeploy.
-
 ## Notes on Rich Media
 
 - Mermaid: wrapped in Markdown pages using fenced `mermaid` blocks.
