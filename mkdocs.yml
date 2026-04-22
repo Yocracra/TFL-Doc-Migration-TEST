@@ -41,3 +41,118 @@ extra_javascript:
   - javascripts/mermaid-init.js
   - javascripts/sidebar-collapse.js
   - https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js
+
+nav:
+  - "Fab Lab Operations":
+      - "Fab Lab Safety & Emergency Manual": "Fab Lab Safety & Emergency Manual.md"
+      - "Studio Standards": "Studio Standards.md"
+  - "FDM Printers":
+      - "Bambu Labs X1C 3D Printer":
+          - "Operations & Safety Manuals":
+              - "Bambu Lab X1C 3D Printer Operation Manual": "FDM Printers/Bambu Labs X1C 3D Printer/Operations & Safety Manuals/Bambu Lab X1C 3D Printer Operation Manual.md"
+              - "Bambu Lab X1C 3D Printer Safety Manual": "FDM Printers/Bambu Labs X1C 3D Printer/Operations & Safety Manuals/Bambu Lab X1C 3D Printer Safety Manual.md"
+          - "Learning Assignments": "FDM Printers/Bambu Labs X1C 3D Printer/Learning Assignments/Bambu X1C 3D Printer Learning Assignment.md"
+      - "Dual Head FDM Printer":
+          - "Slicing in Ideamaker": "FDM Printers/Dual Head FDM Printer/Slicing in Ideamaker.md"
+          - "Operations & Safety Manual":
+              - "Raise3D E2 Printer Machine Operation Manual": "FDM Printers/Dual Head FDM Printer/Operations & Safety Manual/Raise3D E2 Printer Machine Operation Manual.md"
+              - "Raise3D E2 Printer Machine Safety Manual": "FDM Printers/Dual Head FDM Printer/Operations & Safety Manual/Raise3D E2 Printer Machine Safety Manual.md"
+              - "Raise3D E2 Printer Staff Service Manual": "FDM Printers/Dual Head FDM Printer/Operations & Safety Manual/Raise3D E2 Printer Staff Service Manual.md"
+              - "RaiseTouch E2 User Manual": "FDM Printers/Dual Head FDM Printer/Operations & Safety Manual/RaiseTouch E2 User Manual.md"
+          - "Learning Assignment":
+              - "Dual Head Printer Assignment": "FDM Printers/Dual Head FDM Printer/Learning Assignment/Dual Head Printer Assignment.md"
+              - "beware_of_the_cat_body": "FDM Printers/Dual Head FDM Printer/Learning Assignment/beware_of_the_cat_body.md"
+  - "SLA Printers":
+      - "Elegoo Saturn 4 Ultra 16K Resin 3D Printer":
+          - "Operations & Safety Manuals":
+              - "Elegoo Resin 3D Printer Operations Manual": "SLA Printers/Elegoo Saturn 4 Ultra 16K Resin 3D Printer/Operations & Safety Manuals/Elegoo Resin 3D Printer Operations Manual.md"
+              - "Elegoo Resin 3D Printer Safety Manual": "SLA Printers/Elegoo Saturn 4 Ultra 16K Resin 3D Printer/Operations & Safety Manuals/Elegoo Resin 3D Printer Safety Manual.md"
+          - "Learning Assignments":
+              - "Elegoo Resin 3D Printer Activity": "SLA Printers/Elegoo Saturn 4 Ultra 16K Resin 3D Printer/Learning Assignments/Elegoo Resin 3D Printer Activity.md"
+              - "ornate_chess_bishop2": "SLA Printers/Elegoo Saturn 4 Ultra 16K Resin 3D Printer/Learning Assignments/ornate_chess_bishop2.md"
+              - "ornate_chess_king3": "SLA Printers/Elegoo Saturn 4 Ultra 16K Resin 3D Printer/Learning Assignments/ornate_chess_king3.md"
+              - "ornate_chess_knight2": "SLA Printers/Elegoo Saturn 4 Ultra 16K Resin 3D Printer/Learning Assignments/ornate_chess_knight2.md"
+              - "ornate_chess_pawn2": "SLA Printers/Elegoo Saturn 4 Ultra 16K Resin 3D Printer/Learning Assignments/ornate_chess_pawn2.md"
+              - "ornate_chess_queen2": "SLA Printers/Elegoo Saturn 4 Ultra 16K Resin 3D Printer/Learning Assignments/ornate_chess_queen2.md"
+              - "ornate_chess_rook2": "SLA Printers/Elegoo Saturn 4 Ultra 16K Resin 3D Printer/Learning Assignments/ornate_chess_rook2.md"
+          - "Elegoo Cleaning Procedure": "SLA Printers/Elegoo Saturn 4 Ultra 16K Resin 3D Printer/Elegoo Cleaning Procedure/Elegoo Resin 3D Printer Cleaning Manual.md"
+      - "FormLabs Form 3 Resin printer":
+          - "Operations & Safety Manuals":
+              - "FormLabs 3 Resin Printer Operations Manual": "SLA Printers/FormLabs Form 3 Resin printer/Operations & Safety Manuals/FormLabs 3 Resin Printer Operations Manual.md"
+              - "Formlabs Resin Printer Safety Manual": "SLA Printers/FormLabs Form 3 Resin printer/Operations & Safety Manuals/Formlabs Resin Printer Safety Manual.md"
+          - "Learning Assignments":
+              - "FormLabs 3 Printer Assignment": "SLA Printers/FormLabs Form 3 Resin printer/Learning Assignments/FormLabs 3 Printer Assignment.md"
+              - "Lattice_Benchy_FCC": "SLA Printers/FormLabs Form 3 Resin printer/Learning Assignments/Lattice_Benchy_FCC.md"
+          - "Washing and Curing Machines":
+              - "Formlabs Cleaning Manual": "SLA Printers/FormLabs Form 3 Resin printer/Wasing and Curing Machines/Formlabs Cleaning Manual.md"
+              - "Formlabs Washing Machines Operations Manual": "SLA Printers/FormLabs Form 3 Resin printer/Wasing and Curing Machines/Formlabs Washing Machines Operations Manual.md"
+      - "Elegoo Mercury 3.0 Plus Washing And Curing Machine": "SLA Printers/Elegoo Mercury 3.0 Plus Washing And Curing Machine/Elegoo Washing And Curing Machine Manual.md"
+  - "Carvera Desktop CNC Machine":
+      - "Operations & Safety Manual":
+          - "Carvera CNC Operation Manual": "CNC Mill/Operations & Safety Manual/Carvera CNC Operation Manual.md"
+          - "Carvera CNC Safety Manual": "CNC Mill/Operations & Safety Manual/Carvera CNC Safety Manual.md"
+          - "CAM Guide for Carvera Desktop CNC": "CNC Mill/Operations & Safety Manual/CAM Guide for Carvera Desktop CNC.md"
+      - "Learning Assignment": "CNC Mill/Learning Assignment/2D Relief Coin/2D Relief Coin.md"
+  - "Networking":
+      - "Device Approval Form": "Networking/Device Approval Form.md"
+      - "Master Template": "Networking/TAMU Fab Lab Machine Safety Manual Master Template.md"
+      - "Network Diagram":
+          - "API_Cloud Integration Diagram": "Networking/Network Diagram/API_Cloud Integration Diagram.md"
+          - "Copy of Fab Lab Network Diagram Simplified": "Networking/Network Diagram/Copy of Fab Lab Network Diagram Simplified.md"
+          - "Fab Lab Network Diagram Simplified": "Networking/Network Diagram/Fab Lab Network Diagram Simplified.md"
+      - "Operations & Safety Manual":
+          - "Network Operations Manual": "Networking/Operations & Safety Manual/TAMU Fab Lab Network Operations Manual.md"
+          - "Network Security Overview": "Networking/Operations & Safety Manual/TAMU Fab Lab Network Security Overview.md"
+          - "Machine Passwords": "Networking/Operations & Safety Manual/TAMU Fab Lab Staff - Machine Passwords.md"
+          - "Network Dashboard": "Networking/Operations & Safety Manual/TAMU Fab Lab Staff - Network Dashboard.md"
+          - "Network Troubleshooting": "Networking/Operations & Safety Manual/TAMU Fab Lab Staff - Network Troubleshooting.md"
+      - "Learning Assignment":
+          - "Learning Assignment": "Networking/Learning Assignment/Learning Assignment.md"
+          - "old learning assignment": "Networking/Learning Assignment/old learning assignment.md"
+  - "Creality 3D Scanner":
+      - "Operations & Safety Manuals":
+          - "3D Scanner Operations Manual": "3D Scanner/Operations & Safety Manuals/3D Scanner Operations Manual.md"
+          - "3D Scanner Safety Manual": "3D Scanner/Operations & Safety Manuals/3D Scanner Safety Manual.md"
+      - "Learning Assignments": "3D Scanner/Learning Assignments/3D Scanner Assignment.md"
+  - "Glowforge Laser Cutter":
+      - "Operations & Safety Manuals":
+          - "Glowforge Operation Manual": "Laser Cutter/Operations & Safety Manuals/Glowforge Operation Manual.md"
+          - "Glowforge Safety Manual": "Laser Cutter/Operations & Safety Manuals/Glowforge Safety Manual.md"
+      - "Learning Assignments": "Laser Cutter/Learning Assignments/Glowforge CO2 Laser Learning Assignment.md"
+  - "PCB Machines":
+      - "NeoDen Pick & Place":
+          - "Operations & Safety Manuals":
+              - "NeoDen YY1 Pick & Place Machine Operation Manual": "PCB Machines/NeoDen Pick & Place/Operations & Safety Manuals/NeoDen YY1 Pick & Place Machine Operation Manual.md"
+              - "NeoDen YY1 Pick & Place Machine Safety Manual": "PCB Machines/NeoDen Pick & Place/Operations & Safety Manuals/NeoDen YY1 Pick & Place Machine Safety Manual.md"
+          - "Learning Assignments": "PCB Machines/NeoDen Pick & Place/Learning Assignments/Nothing Here.md"
+      - "Novastar Solder Reflow Oven":
+          - "Operations & Safety Manuals":
+              - "Reflow Oven Reference Sheet": "PCB Machines/Novastar Solder Reflow Oven/Operations & Safety Manuals/Reflow Oven Reference Sheet.md"
+              - "Reflow Oven Safety Manual": "PCB Machines/Novastar Solder Reflow Oven/Operations & Safety Manuals/Reflow Oven Safety Manual.md"
+          - "Learning Assignments": "PCB Machines/Novastar Solder Reflow Oven/Learning Assignments/Nothing Here.md"
+      - "NeoDen Solder Stencil":
+          - "Operations & Safety Manuals":
+              - "NeoDen FP2636 Machine Operation Manual": "PCB Machines/NeoDen Solder Stencil/Operations & Safety Manuals/NeoDen FP2636 Machine Operation Manual.md"
+              - "NeoDen FP2636 Machine Safety Manual": "PCB Machines/NeoDen Solder Stencil/Operations & Safety Manuals/NeoDen FP2636 Machine Safety Manual.md"
+          - "Learning Assignments": "PCB Machines/NeoDen Solder Stencil/Learning Assignments/Nothing Here.md"
+  - "Workbenches":
+      - "Electric Workbenches":
+          - "Operations and Safety Manuals":
+              - "Electrical Workbench Operation Manual": "Workbenches/Electric Workbenches/Operations and Safety Manuals/Electrical Workbench Operation Manual.md"
+              - "Electrical Workbench PPS Machine Safety Manual": "Workbenches/Electric Workbenches/Operations and Safety Manuals/Electrical Workbench PPS Machine Safety Manual.md"
+          - "Learning Assignments": "Workbenches/Electric Workbenches/Learning Assignments/Nothing Here.md"
+  - "Cricut":
+      - "Operations & Safety Manuals":
+          - "The Fab Lab Cricut Operations Manual": "Cricut/Operations & Safety Manuals/The Fab Lab Cricut Operations Manual.md"
+          - "The Fab Lab Cricut Safety Manual": "Cricut/Operations & Safety Manuals/The Fab Lab Cricut Safety Manual.md"
+      - "Learning Assignments":
+          - "Cricut Explore 4 Assignment _ Box": "Cricut/Learning Assignments/Cricut Explore 4 Assignment _ Box.md"
+          - "Cricut Explore 4 Assignment": "Cricut/Learning Assignments/Cricut Explore 4 Assignment.md"
+  - "IT":
+      - "IT Role Summary": "IT/IT Role Summary.md"
+      - "Computer Systems Administration":
+          - "Flowcharts":
+              - "User Facing Computer Breakdown": "IT/Computer Systems Administration/Flowcharts/User Facing Computer Breakdown.md"
+  - "Templates":
+      - "Operation Manual Master Template": "Templates/Fab Lab Machine Operation Manual Master Template.md"
+      - "Safety Manual Master Template": "Templates/Fab Lab Machine Safety Manual Master Template.md"
