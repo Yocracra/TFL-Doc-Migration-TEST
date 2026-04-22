@@ -45,6 +45,14 @@ Use Cloudflare Pages Git integration against this repository.
 - Root directory: repository root
 - Python version environment variable: `PYTHON_VERSION=3.12`
 
+If Cloudflare asks for a deploy command, use:
+
+```bash
+npx wrangler pages deploy site --project-name tfl-doc-migration-test
+```
+
+Do not use `npx wrangler deploy` for this project. That command targets Workers deployment behavior and can fail with: "Could not detect a directory containing static files".
+
 ### GitHub Action deployment (included)
 
 This repository also includes [cloudflare-pages.yml](.github/workflows/cloudflare-pages.yml), which will:
