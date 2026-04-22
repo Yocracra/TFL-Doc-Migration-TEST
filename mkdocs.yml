@@ -43,9 +43,8 @@ extra_javascript:
   - https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js
 
 nav:
-  - "Fab Lab Operations":
-      - "Fab Lab Safety & Emergency Manual": "Fab Lab Safety & Emergency Manual.md"
-      - "Studio Standards": "Studio Standards.md"
+  - "Fab Lab Safety & Emergency Manual": "Fab Lab Safety & Emergency Manual.md"
+  - "Studio Standards": "Studio Standards.md"
   - "FDM Printers":
       - "Bambu Labs X1C 3D Printer":
           - "Operations & Safety Manuals":
