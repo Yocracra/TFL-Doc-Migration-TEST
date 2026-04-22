@@ -1,6 +1,5 @@
 site_name: TAMU Fab Lab Documentation
 site_description: Unified operations, safety, and learning documentation for TAMU Fab Lab.
-site_url: https://aidanstew.art
 docs_dir: docs
 site_dir: site
 

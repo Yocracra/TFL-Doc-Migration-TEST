@@ -46,24 +46,18 @@ It builds MkDocs and deploys the generated `site/` directory automatically on pu
 1. In GitHub, open repository `Settings`.
 2. Go to `Pages`.
 3. Under `Build and deployment`, set `Source` to `GitHub Actions`.
-4. Push to `main` or `master` (or run the workflow manually from `Actions`).
+4. Ensure `Custom domain` is empty in `Settings > Pages`.
+5. Push to `main` or `master` (or run the workflow manually from `Actions`).
 
-### Custom domain with Cloudflare DNS
+### GitHub Pages URL
 
-`docs/CNAME` is already set to `aidanstew.art` in [docs/CNAME](docs/CNAME).
+After deployment, your site URL will be:
 
-In Cloudflare DNS for `aidanstew.art`, create or update these records:
+- Project site: `https://<your-github-username>.github.io/TFL-Doc-Migration-TEST/`
 
-- `A` @ -> `185.199.108.153`
-- `A` @ -> `185.199.109.153`
-- `A` @ -> `185.199.110.153`
-- `A` @ -> `185.199.111.153`
+If the repository is renamed to `<your-github-username>.github.io`, the site URL becomes:
 
-Optional:
-
-- `CNAME` `www` -> `<your-github-username>.github.io`
-
-Then in GitHub `Settings > Pages`, set custom domain to `aidanstew.art` and enable HTTPS.
+- User site: `https://<your-github-username>.github.io/`
 
 ## Cloudflare Pages Deployment (Optional)
 
